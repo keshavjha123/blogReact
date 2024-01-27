@@ -9,7 +9,7 @@ const ContentComponent = ({flexBool}: Props) => {
         <div className="grid grid-cols-10">
           <div className="col-span-6  mr-4">
             <div className={`${flexBool? 'mb-7 mr-6': ""}`}>
-                <img className="object-cover rounded-lg hover:opacity-80" src="./public/card.jpg" alt="" />
+                <img className="object-cover rounded-lg hover:opacity-80" src="card.jpg" alt="" />
             </div>
             <p className='flex text-left'>
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 

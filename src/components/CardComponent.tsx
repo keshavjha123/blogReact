@@ -1,19 +1,21 @@
+import { useNavigate } from "react-router";
 
 type Props = {
     flexBool: boolean,  // Required boolean prop
   };
 
 const CardComponent = ({flexBool}: Props) => {
+    const navigate = useNavigate();
     return (
         <div className={`${flexBool? 'flex mt-9': ""}`}>
             <div className={`${flexBool? 'mb-7 mr-6': ""}`}>
-                <img className="object-cover rounded-lg hover:opacity-80" src="card.jpg" alt="" />
+                <img className="object-cover rounded-lg hover:opacity-80 hover: cursor-pointer" src="card.jpg" alt="" onClick={()=>{navigate("/post")}} />
             </div>
             <div className={`${flexBool?"flex flex-col justify-center":""}`}>
-                <div className="flex content-start mt-1">
+                <div className="flex content-start mt-1 hover: cursor-pointer" onClick={()=>{navigate("/post")}}>
                     <p className="mt-2 text-red-700">Editor's Picks</p>
                 </div>
-                <div className="font-bold flex hover:text-red-700 sm:text-left mt-1">
+                <div className="font-bold flex hover:text-red-700 sm:text-left mt-1 hover: cursor-pointer" onClick={()=>{navigate("/post")}}>
                     <p>Google Assistant Can Now Speak Multiple Languages Interchangeably</p>
                 </div>
                 <div className="flex text-left mt-2">

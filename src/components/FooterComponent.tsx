@@ -9,10 +9,10 @@ const FooterComponent = () => {
             <p className="text-gray-400">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p>
         </div>
         <div className="flex justify-center ml-3">
-            <img className="hover:opacity-100" src='./public/facebook.svg'/>
-            <img src='./public/twitter.svg'/>
-            <img src='./public/youtube.svg'/>
-            <img src='./public/instagram.svg'/>
+            <img className="hover:opacity-100" src='facebook.svg'/>
+            <img src='twitter.svg'/>
+            <img src='youtube.svg'/>
+            <img src='instagram.svg'/>
         </div>
     </div>
   )

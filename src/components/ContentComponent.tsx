@@ -1,9 +1,9 @@
-
 type Props = {
   flexBool: boolean
 }
 
 const ContentComponent = ({flexBool}: Props) => {
+
   return (
     <div>
         <div className="grid grid-cols-10">
@@ -36,8 +36,6 @@ const ContentComponent = ({flexBool}: Props) => {
     </div>
   )
 }
-
-
 
 
 export default ContentComponent

@@ -1,9 +1,8 @@
-import React from 'react'
 // import {SearchIcon} from '@heroicons/react'
 
-type Props = {}
 
-const Header = (props: Props) => {
+
+const Header = () => {
   return (
     <div className='grid grid-cols-12 justify-around bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 w-100% mb-4 h-20 text-center content-center rounded-md'>
       <div className="text-white mb-2 col-span-1 hover:text-gray-300 cursor-pointer "> 

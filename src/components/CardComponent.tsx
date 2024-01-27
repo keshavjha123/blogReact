@@ -1,8 +1,9 @@
-import React from 'react'
 
-type Props = {}
+type Props = {
+    flexBool: boolean,  // Required boolean prop
+  };
 
-const CardComponent = ({flexBool}) => {
+const CardComponent = ({flexBool}: Props) => {
     return (
         <div className={`${flexBool? 'flex mt-9': ""}`}>
             <div className={`${flexBool? 'mb-7 mr-6': ""}`}>

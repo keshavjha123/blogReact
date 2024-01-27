@@ -1,8 +1,9 @@
-import React from 'react'
 
-type Props = {}
+type Props = {
+  flexBool: boolean
+}
 
-const ContentComponent = ({flexBool}) => {
+const ContentComponent = ({flexBool}: Props) => {
   return (
     <div>
         <div className="grid grid-cols-10">

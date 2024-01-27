@@ -1,8 +1,6 @@
-import React from 'react'
 
-type Props = {}
 
-const FooterComponent = (props: Props) => {
+const FooterComponent = () => {
   return (
     <div className="bg-pink-950 flex justify-center mt-10 text-center content-center p-10">
         <p className="font-serif text-white content-center text-center text-5xl">Casper</p>

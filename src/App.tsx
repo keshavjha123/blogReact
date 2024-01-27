@@ -6,7 +6,7 @@ import BottomInfo from './components/BottomInfo'
 import ContentComponent from './components/ContentComponent'
 // import { Route, Routes } from 'react-router'
 import MainPage from './pages/MainPage'
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 
 function App() {
 

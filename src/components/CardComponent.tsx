@@ -1,10 +1,11 @@
 import { useNavigate } from "react-router";
 
 type Props = {
-    flexBool: boolean,  // Required boolean prop
+    flexBool: boolean,
+    showDesc: boolean  // Required boolean prop
   };
 
-const CardComponent = ({flexBool}: Props) => {
+const CardComponent = ({flexBool, showDesc}: Props) => {
     const navigate = useNavigate();
     return (
         <div className={`${flexBool? 'flex mt-9': ""}`}>
@@ -19,10 +20,10 @@ const CardComponent = ({flexBool}: Props) => {
                     <p>Google Assistant Can Now Speak Multiple Languages Interchangeably</p>
                 </div>
                 <div className="flex text-left mt-2">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry…</p>
+                    {showDesc?<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry…</p>:null}
                 </div>
                 <div className="flex text-left mt-1">
-                    <p  className='font-bold'>John Doe-</p>
+                    <p className='font-bold'>John Doe-</p>
                     <p className="text-slate-600">April 12,2022</p>
                 </div>
             </div>

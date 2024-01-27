@@ -7,7 +7,7 @@ const CardComponent = ({flexBool}: Props) => {
     return (
         <div className={`${flexBool? 'flex mt-9': ""}`}>
             <div className={`${flexBool? 'mb-7 mr-6': ""}`}>
-                <img className="object-cover rounded-lg hover:opacity-80" src="./public/card.jpg" alt="" />
+                <img className="object-cover rounded-lg hover:opacity-80" src="card.jpg" alt="" />
             </div>
             <div className={`${flexBool?"flex flex-col justify-center":""}`}>
                 <div className="flex content-start mt-1">

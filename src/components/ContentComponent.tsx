@@ -34,7 +34,7 @@ const ContentComponent = ({flexBool}: Props) => {
   return (
     <div>
         <div className="grid grid-cols-10">
-          <div className="col-span-6  mr-4">
+          <div className="col-span-6 mr-4">
             <div>
               <p className="text-4xl font-bold text-left mb-6">Google Correlate: The Best SEO Research Tool You Aren’t Using</p>
               <div className="flex text-center items-center justify-items-center">

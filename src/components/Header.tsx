@@ -5,23 +5,15 @@
 const Header = () => {
   return (
     <div className='grid grid-cols-12 justify-around bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 w-100% mb-4 h-20 text-center content-center rounded-md'>
-      <div className="text-white mb-2 col-span-1 hover:text-gray-300 cursor-pointer "> 
+      <div className="text-white mb-2 col-span-1 hover:text-gray-300 cursor-pointer"> 
         Casper
       </div>
-      <div className="text-white mb-2 col-span-1 hover:text-gray-300 cursor-pointer"> 
-        Home
-      </div>
-      <div className="text-white mb-2 col-span-1 hover:text-gray-300 cursor-pointer"> 
-        Features
-      </div>
-      <div className="text-white mb-2 col-span-1 hover:text-gray-300 cursor-pointer"> 
-        Mega Menu
-      </div>
-      <div className="text-white mb-2 col-span-1 hover:text-gray-300 cursor-pointer"> 
-        Tipography
-      </div>
-      <div className="text-white mb-2 col-span-1 hover:text-gray-300 cursor-pointer"> 
-        Shortcodes
+      <div className="text-white mb-2 col-span-6  flex justify-around"> 
+        <p className="hover:text-gray-300 cursor-pointer">Home</p>
+        <p className="hover:text-gray-300 cursor-pointer">Features</p>
+        <p className="hover:text-gray-300 cursor-pointer">Mega Menu</p>
+        <p className="hover:text-gray-300 cursor-pointer">Tipography</p>
+        <p className="hover:text-gray-300 cursor-pointer">Shortcodes</p> 
       </div>
       <div className="col-end-12 col-span-1 flex gap-4 hover:cursor-pointer hover:opacity-50">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
